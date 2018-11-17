@@ -1,0 +1,45 @@
+
+/*CONTAINER*/
+h1{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.header-container, .footer-container, .nav-container{
+	display: flex;
+	justify-content: center;
+}
+.section-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-container, .header-container, .footer-container, .nav-container{
+	border: 1px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+.section-box-1, .section-box-2, .section-box-3{
+	padding: 10px;
+	border: 1px solid blue;
+}
+
+
+.section-box-1, .section-box-3{
+	width: 20%;
+}
+.section-box-2{
+	width: 40%;
+}
+
+.box-nav{
+	width: 50%;
+	border:1px solid green;
+	text-align: center;
+	word-spacing: 30px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+
